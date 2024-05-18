@@ -1,0 +1,196 @@
+.bcard-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 20px;
+
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bus-card {
+    width: 55rem;
+    background-color: #5211D5;
+    height: 13rem;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.bcontainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.Select-Option {
+    padding: 0% 50px;
+    /* Add padding for spacing */
+    border: 1px solid #ced4da;
+    /* Add border */
+    border-radius: 10px;
+    /* Make it rounded */
+    background-color: #fff;
+    /* Set background color */
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.Select-Option:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Select-Option option {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #f8f9fa;
+}
+
+.date {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 0% 50px;
+}
+
+.search-btn {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f870ff;
+    border-radius: 10px;
+    background-color: #CD2BEE;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 0% 70px 0% 70px;
+}
+
+.search-btn:hover {
+    background-color: #e947f2;
+    color: white;
+}
+
+.text {
+    font-size: 20px;
+    color: #fff;
+    padding: 0% 70px;
+
+}
+
+.searchContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.ResultedCard {
+    width: 55rem;
+    background-color: #5211D5;
+    height: 7rem;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-image: url("3638.jpg");
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ResultedCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.All-Buses {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    gap: 20px;
+
+
+
+}
+
+.card-text {
+    font-size: 22px;
+}
+
+
+.book-btn {
+    width: 15%;
+    height: 40px;
+    border: 1px solid #f870ff;
+    border-radius: 10px;
+    background-color: #CD2BEE;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 0% 5px 0% 5px;
+}
+
+.book-btn:hover {
+    background-color: #e947f2;
+    color: white;
+}
+
+.confirm-btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #f870ff;
+    border-radius: 10px;
+    background-color: #CD2BEE;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 0% 5px 0% 5px;
+}
+
+.Mail {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 0% 50px 0% 20px;
+    outline: #067ef5;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.modal-dialog {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.Ticket-Card {
+    width: 35rem;
+    background-color: #5211D5;
+    height: 20rem;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

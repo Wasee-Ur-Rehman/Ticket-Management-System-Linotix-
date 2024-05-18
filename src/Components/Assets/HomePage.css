@@ -1,0 +1,40 @@
+.home-page {
+  background-color: aliceblue;
+  /* Replace with the path to your background image */
+  /* Add any additional styles for the home page here */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #6C2BEE;
+
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0px;
+  
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 0.5rem;
+}
