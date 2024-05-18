@@ -14,8 +14,8 @@ app.use(cors());
 app.use(express.json());
 
 const config = {
-  user: 'UserOne',
-  password: 'OlperMilk!@#123',
+  user: '----',
+  password: '----',
   server: 'localhost', // You can use your database's IP address here
   database: 'Linotix',
   options: {
