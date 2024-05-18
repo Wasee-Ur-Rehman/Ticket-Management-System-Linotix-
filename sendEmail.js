@@ -5,8 +5,8 @@ function sendEmail(receiverEmail, emailText) {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'amassed971@gmail.com', 
-      pass: 'ofhx ahvz enra ydpf' // Replace with your actual password
+      user: '----', 
+      pass: '----' // Replace with your actual password
     },
     tls: {
       rejectUnauthorized: false
@@ -14,7 +14,7 @@ function sendEmail(receiverEmail, emailText) {
   });
 
   const mailOptions = {
-    from: 'amassed971@gmail.com',
+    from: '----',
     to: receiverEmail, // Use the receiver's email passed as a parameter
     subject: 'Sending Email using Node.js',
     text: emailText // Use the email text passed as a parameter
